@@ -12,7 +12,7 @@ class Department:
         self.name = name
         self.location = location
 
-    def __repr__(self):
+    def _repr_(self):
         return f"<Department {self.id}: {self.name}, {self.location}>"
 
     @property
